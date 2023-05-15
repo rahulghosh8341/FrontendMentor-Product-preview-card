@@ -1,0 +1,22 @@
+:root{
+    --color-dark-cyan:hsl(158, 36%, 37%);
+    --color-cream:hsl(30, 38%, 92%);
+    --color-dark-blue:hsl(212, 21%, 14%);
+    --color-grayish-blue:hsl(228, 12%, 48%);
+    --color-white:hsl(0, 0%, 100%);
+}
+
+html{
+    font-size: 62.5%;
+    font-family: 'Fraunces', serif;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
