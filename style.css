@@ -1,17 +1,18 @@
-:root{
-    --color-dark-cyan:hsl(158, 36%, 37%);
-    --color-cream:hsl(30, 38%, 92%);
-    --color-dark-blue:hsl(212, 21%, 14%);
-    --color-grayish-blue:hsl(228, 12%, 48%);
-    --color-white:hsl(0, 0%, 100%);
+:root {
+  --color-dark-cyan: #3c8067;
+  --color-cream: #f3eae3;
+  --color-dark-blue: #1c232b;
+  --color-grayish-blue: #6c7289;
+  --color-white: #ffffff;
 }
 
-html{
-    font-size: 62.5%;
-    font-family: 'Fraunces', serif;
-    font-family: 'Montserrat', sans-serif;
+html {
+  font-size: 62.5%;
 }
-
+body {
+  font-family: "Montserrat", sans-serif;
+  background: var(--color-cream);
+}
 .attribution {
   font-size: 11px;
   text-align: center;
@@ -20,3 +21,82 @@ html{
   color: hsl(228, 45%, 44%);
 }
 
+.product--image {
+  width: 100%;
+  border-radius: 1.2rem 1.2rem 0 0;
+}
+
+.card {
+  margin: 2.8rem 1.6rem;
+}
+
+.card__details {
+  background: var(--color-white);
+  padding: 0 2.5rem 2.5rem 2.5rem;
+  border-radius: 0 0 1.2rem 1.2rem ;
+}
+
+.product__category {
+  margin: 0;
+  padding-top: 2.7rem;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  letter-spacing: 0.45rem;
+  color: var(--color-grayish-blue);
+}
+
+.product__name {
+  font-family: "Fraunces", serif;
+  margin: 0;
+  padding-top: 1.2rem;
+  font-size: 3rem;
+  font-weight: 700;
+  line-height: 1.1;
+}
+
+.product__desc{
+    margin:0;
+    padding-top: 2.2rem;
+    padding-bottom: 2.3rem;
+    font-size: 1.5rem;
+    line-height: 1.5;
+    color: var(--color-grayish-blue);
+}
+
+.price{
+    display: flex;
+    padding-bottom: 1.7rem;
+}
+
+.card__discount-price{
+    font-family: "Fraunces", serif;
+    font-size: 3rem;
+    font-weight: 700;
+    color: var(--color-dark-cyan);
+    padding-right: 2rem;
+}
+
+.card__price{
+    justify-self: center;
+    align-self: center;
+    font-size: 1.3rem;
+    text-decoration:line-through;
+    color:var(--color-grayish-blue)
+}
+
+.btn{
+    width: 100%;
+    padding-top: 1.4rem;
+    padding-bottom: 1.4rem;
+    font-size: 1.4rem;
+    background-color: var(--color-dark-cyan);
+    color: var(--color-white);
+    border-radius: 0.8rem;
+    border: 0;
+    font-family: inherit;
+}
+
+.btn img{
+    margin-right: 0.9rem;
+    transform: translateY(2px);
+}
